@@ -1,2 +1,2 @@
 
-Copyright (C) 2017 Jonas
+Copyright (C) 2017 Jonas Pietsch
