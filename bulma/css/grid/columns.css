@@ -1,0 +1,69 @@
+/*
+Error: Undefined mixin 'mobile'.
+        on line 45 of D:\Programmieren\webseiten\projekte\WebRau\bulma\sass\grid\columns.sass, in `mobile'
+        from line 45 of D:\Programmieren\webseiten\projekte\WebRau\bulma\sass\grid\columns.sass
+
+40:     .columns.is-mobile > &.is-#{$i}
+41:       flex: none
+42:       width: ($i / 12) * 100%
+43:     .columns.is-mobile > &.is-offset-#{$i}
+44:       margin-left: ($i / 12) * 100%
+45:   +mobile
+46:     &.is-narrow-mobile
+47:       flex: none
+48:     &.is-full-mobile
+49:       flex: none
+50:       width: 100%
+
+Backtrace:
+D:\Programmieren\webseiten\projekte\WebRau\bulma\sass\grid\columns.sass:45:in `mobile'
+D:\Programmieren\webseiten\projekte\WebRau\bulma\sass\grid\columns.sass:45
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:351:in `block in visit_mixin'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/stack.rb:98:in `block in with_mixin'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/stack.rb:115:in `with_frame'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/stack.rb:98:in `with_mixin'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:349:in `visit_mixin'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:160:in `block in visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/stack.rb:79:in `block in with_base'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/stack.rb:115:in `with_frame'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/stack.rb:79:in `with_base'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:160:in `visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:433:in `block (2 levels) in visit_rule'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:433:in `map'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:433:in `block in visit_rule'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:181:in `with_environment'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:431:in `visit_rule'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:160:in `block in visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/stack.rb:79:in `block in with_base'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/stack.rb:115:in `with_frame'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/stack.rb:79:in `with_base'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:160:in `visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/tree/visitors/base.rb:52:in `map'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:169:in `block in visit_children'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:181:in `with_environment'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:168:in `visit_children'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:188:in `visit_root'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:159:in `visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:8:in `visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/tree/root_node.rb:36:in `css_tree'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/engine.rb:381:in `_render_with_sourcemap'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/engine.rb:298:in `render_with_sourcemap'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/exec/sass_scss.rb:391:in `run'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/exec/sass_scss.rb:63:in `process_result'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/exec/base.rb:52:in `parse'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/exec/base.rb:19:in `parse!'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/bin/sass:13:in `<top (required)>'
+C:/Program Files (x86)/Koala/bin/sass:18:in `load'
+C:/Program Files (x86)/Koala/bin/sass:18:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Undefined mixin 'mobile'.\A         on line 45 of D:\Programmieren\webseiten\projekte\WebRau\bulma\sass\grid\columns.sass, in `mobile'\A         from line 45 of D:\Programmieren\webseiten\projekte\WebRau\bulma\sass\grid\columns.sass\A \A 40:     .columns.is-mobile > &.is-#{$i}\A 41:       flex: none\A 42:       width: ($i / 12) * 100%\A 43:     .columns.is-mobile > &.is-offset-#{$i}\A 44:       margin-left: ($i / 12) * 100%\A 45:   +mobile\A 46:     &.is-narrow-mobile\A 47:       flex: none\A 48:     &.is-full-mobile\A 49:       flex: none\A 50:       width: 100%"; }
