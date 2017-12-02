@@ -1,2 +1,3 @@
 backend/config.php
-storage/img
+backen/db.php
+storage
