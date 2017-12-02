@@ -104,21 +104,21 @@ class constructor {
                case "view":
                     $this->title	     = pages_title;
                     $this->modfile	     = "view.php";
-                    $this->cssfiles     = array_merge($this->cssfiles);
+                    $this->cssfiles     = array_merge($this->cssfiles,[BULMA,HELPERS]);
                     $this->jsfiles	     = array_merge($this->jsfiles);
                     break;
 
                case "login":
                     $this->title	     = login_title;
   			     $this->modfile	     = "login.php";
-  			     $this->cssfiles	= array_merge($this->cssfiles);
+                    $this->cssfiles	= array_merge($this->cssfiles,[BULMA,HELPERS]);
                     $this->jsfiles      = array_merge($this->jsfiles);
                     break;
 
                case "admin":
   			     $this->title	     = admin_title;
   			     $this->modfile	     = "admin.php";
-  			     $this->cssfiles	= array_merge($this->cssfiles);
+  			     $this->cssfiles	= array_merge($this->cssfiles,[BULMA,HELPERS]);
   			     $this->jsfiles	     = array_merge($this->jsfiles);
   			     break;
 

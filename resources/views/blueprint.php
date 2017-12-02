@@ -17,20 +17,20 @@ $creator = constructor::getInstance();
 
   if (!empty($creator->cssfiles)){
 	  foreach ($creator->cssfiles as $cssfile) {
-		  echo "\t<link rel=\"stylesheet\" href=\"backend/styles/css/" . $cssfile . "\" />\r\n";
+		  echo "\t<link rel=\"stylesheet\" href=\"public/css/" . $cssfile . "\" />\r\n";
 	  }
   }
 
   if (!empty($creator->jsfiles)){
 	  foreach ($creator->jsfiles as $jsfile) {
-		  echo "\t<script type=\"text/javascript\" src=\"backend/js/" . $jsfile . "\"></script>\r\n";
+		  echo "\t<script type=\"text/javascript\" src=\"public/js/" . $jsfile . "\"></script>\r\n";
 	  }
   }
 
   ?>
 </head>
 <body>
-  <div id="wrapper">
+  <div id="app">
     <?php require_once "$creator->modfile";?>
   </div>
 </body>
